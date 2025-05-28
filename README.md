@@ -1,4 +1,6 @@
 
+!(logo)[https://media.tenor.com/jG9BxEsvNoMAAAAi/cat-funny.gif]
+
 # Kody z HTML, JS, CSS oraz CPP (C++)
 
 Po każdej lekcji kopiuje bądź przepisuje to co było robione, omawiane tak aby można było przejrzeć jeszcze raz lub przygotować się na sprawdzian.
