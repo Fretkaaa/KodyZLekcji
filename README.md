@@ -1,5 +1,5 @@
 
-![logo](https://media.tenor.com/jG9BxEsvNoMAAAAi/cat-funny.gif) ![logo](https://media.tenor.com/jG9BxEsvNoMAAAAi/cat-funny.gif) ![logo](https://media.tenor.com/jG9BxEsvNoMAAAAi/cat-funny.gif) ![logo](https://media.tenor.com/jG9BxEsvNoMAAAAi/cat-funny.gif) ![logo](https://media.tenor.com/jG9BxEsvNoMAAAAi/cat-funny.gif)
+![logo](https://media.tenor.com/jG9BxEsvNoMAAAAi/cat-funny.gif)
 
 # Kody z HTML, JS, CSS oraz CPP (C++)
 
