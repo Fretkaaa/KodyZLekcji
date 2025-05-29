@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Zadanie 1</title>
+</head>
+<body>
+    <div id="menu">
+        <ul>
+            <li><a href="Zadanie1.html">Główna</a></li>
+            <li><a href="https://onet.pl">Onet</a></li>
+            <li><a href="https://e-garnitury.pl">Garnitury...</a></li>
+            <li><a a href="" onclick="KlikAlert()">ptoszek</a></li>
+        </ul>
+    </div>
+</body>
+<style>
+    #menu ul{
+        display: flex;
+        gap: 40px;
+    }
+</style>
+<script>
+    function KlikAlert(){
+        alert("Too risky to be true...")
+    };
+
+    var ZmiennaTekstowa = "Tekst";
+    var ZmiennaLiczbowa = 20;
+    var getDate = new Date();
+    var Godzina = getDate.getHours();
+    var Minuty = getDate.getMinutes();
+
+    const CzasAktualny = `${Godzina}:${Minuty}`;
+    console.log(CzasAktualny);
+
+    var tablica = ['a', 'b', 'c', 'd', 'e', 'f', 'g']
+    //Foreach
+    tablica.forEach(element => {
+            console.log(element);
+    });
+    //For
+    for (let i = 0; i < tablica.length; i++) {
+        var element = tablica[i];
+        console.log(element);
+    }
+
+    var OstatniElement = tablica[6];
+    console.log(OstatniElement);
+
+    var TablicaNumery = [1,2,3,4,5,6,7,8,9,10]
+    let suma = 0;
+    TablicaNumery.forEach(element => {
+        suma += element;
+        //tu liczby dodają się stopniowo, jak się wyrzuci console.log(suma) poza funkcję do się dodadzą odrazu
+        console.log(suma);
+     });
+
+     var LiczbaPseudoLosowa1 = Math.floor(Math.random() * (1 - 100 + 1)) + 100;
+     var LiczbaPseudoLosowa2 = Math.floor(Math.random() * (50 - 150 + 1)) + 150;
+
+     console.log(LiczbaPseudoLosowa1, LiczbaPseudoLosowa2)
+
+     function LiczbaLosowa()
+     {
+        var liczbazLosowych = Math.floor(Math.random());
+        console.log(liczbazLosowych)
+     }
+
+     let index = 0;
+     for (let index = 0; index < 10; index++) {
+        LiczbaLosowa()
+        
+     }
+
+</script>
+</html>
