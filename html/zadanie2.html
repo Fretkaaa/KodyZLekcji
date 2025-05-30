@@ -45,14 +45,13 @@
 
      function LiczbaLosowa(min, max)
      {
-        var liczbazLosowych = Math.floor(Math.random() * (min - max + 1)) + min;
+        var liczbazLosowych = Math.floor(Math.random() * (min - max + 1)) + max;
         console.log(liczbazLosowych)
      }
 
      let index = 0;
      for (let index = 0; index < 10; index++) {
-        LiczbaLosowa()
-        
+        LiczbaLosowa(1, 100)
      }
 
 </script>
