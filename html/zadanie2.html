@@ -43,9 +43,9 @@
 
      console.log(LiczbaPseudoLosowa1, LiczbaPseudoLosowa2)
 
-     function LiczbaLosowa()
+     function LiczbaLosowa(min, max)
      {
-        var liczbazLosowych = Math.floor(Math.random());
+        var liczbazLosowych = Math.floor(Math.random() * (min - max + 1)) + min;
         console.log(liczbazLosowych)
      }
 
