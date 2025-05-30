@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator</title>
+</head>
+<body>
+    <input type="text" value="NUMBER" id="PoleWyniku">
+    <br>
+    <input type="button" value="1" onclick="dodajjeden()">
+    <input type="button" value="2" onclick="dodajdwa()">
+    <input type="button" value="3" onclick="dodajtrzy()">
+    <br>
+    <input type="button" value="4" onclick="dodajcztery()">
+    <input type="button" value="5" onclick="dodajpiec()">
+    <input type="button" value="6" onclick="dodajszesc()">
+    <br>
+    <input type="button" value="7" onclick="dodajsiedem()">
+    <input type="button" value="8" onclick="dodajosiem()">
+    <input type="button" value="9" onclick="dodajdziewiec()">
+    <br>
+    <input type="button" value="+" onclick="dodaj()">
+    <input type="button" value="-" onclick="odejmij()">
+    <input type="button" value="=" onclick="rownasie()">
+    <style>
+    body{
+        background-color: khaki;
+        margin: 10px;
+        padding: 20px;
+        text-align: center;
+    }
+    input 
+    {
+        margin: 5px;
+        padding: 30px;
+        justify-content: center;
+    }
+    </style>
+    <script>
+        var AktualnaLiczba = "";
+        var Pierwszaliczba;
+       
+
+function dodajjeden() {
+    AktualnaLiczba = AktualnaLiczba + "1";
+    document.getElementById("PoleWyniku").value = AktualnaLiczba;
+}
+function dodajdwa() {
+    AktualnaLiczba = AktualnaLiczba + "2";
+    document.getElementById("PoleWyniku").value = AktualnaLiczba;
+}
+function dodajtrzy() {
+    AktualnaLiczba = AktualnaLiczba + "3";
+    document.getElementById("PoleWyniku").value = AktualnaLiczba;
+}
+function dodajcztery() {
+    AktualnaLiczba = AktualnaLiczba + "4";
+    document.getElementById("PoleWyniku").value = AktualnaLiczba;
+}
+function dodajpiec() {
+    AktualnaLiczba = AktualnaLiczba + "5";
+    document.getElementById("PoleWyniku").value = AktualnaLiczba;
+}
+function dodajszesc() {
+    AktualnaLiczba = AktualnaLiczba + "6";
+    document.getElementById("PoleWyniku").value = AktualnaLiczba;
+}
+function dodajsiedem() {
+    AktualnaLiczba = AktualnaLiczba + "7";
+    document.getElementById("PoleWyniku").value = AktualnaLiczba;
+}
+function dodajosiem() {
+    AktualnaLiczba = AktualnaLiczba + "8";
+    document.getElementById("PoleWyniku").value = AktualnaLiczba;
+}
+function dodajdziewiec() {
+    AktualnaLiczba = AktualnaLiczba + "9";
+    document.getElementById("PoleWyniku").value = AktualnaLiczba;
+}
+
+function dodaj() {
+    Pierwszaliczba = +AktualnaLiczba; 
+    AktualnaLiczba = "";
+    Dzialanie = "+";
+    document.getElementById("PoleWyniku").value = "";
+}
+
+function odejmij() {
+
+
+
+    
+    Pierwszaliczba = +AktualnaLiczba;
+    AktualnaLiczba = "";
+    Dzialanie = "-";
+    document.getElementById("PoleWyniku").value = "";
+}
+
+function rownasie() {
+    var DrugaLiczba = +AktualnaLiczba;
+    var Wynik = 0;
+    if (Dzialanie == "+") { 
+        Wynik = Pierwszaliczba + DrugaLiczba;
+    } else if (Dzialanie == "-") {
+        Wynik = Pierwszaliczba - DrugaLiczba;
+    }
+    document.getElementById("PoleWyniku").value = Wynik;
+    AktualnaLiczba = Wynik;
+    Dzialanie = "";
+}
+    </script>
+</body>
+</html>
