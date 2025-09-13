@@ -3,7 +3,7 @@
 
 # Kody z HTML, JS, CSS oraz CPP (C++)
 
-Po każdej lekcji kopiuje bądź przepisuje to co było robione, omawiane tak aby można było przejrzeć jeszcze raz lub przygotować się na sprawdzian.
+Po każdej lekcji kopiuje bądź przepisuje to co było robione, omawiane tak aby można było przejrzeć jeszcze raz lub przygotować się na sprawdzian. czy cos
 
 
 
