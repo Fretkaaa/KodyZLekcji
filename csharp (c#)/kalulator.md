@@ -15,6 +15,5 @@
     <Button x:Name="MinusButton" Content="-" HorizontalAlignment="Left" Margin="197,271,0,0" VerticalAlignment="Top" Height="40" Width="40"/>
     <Button x:Name="EqualsButton" Content="=" HorizontalAlignment="Left" Margin="262,271,0,0" VerticalAlignment="Top" Height="40" Width="40"/>
     <TextBlock x:Name="WynikTextBlock" HorizontalAlignment="Left" Height="31" Margin="136,42,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="166" FontSize="22"/>
-
 </Grid>
 ```
