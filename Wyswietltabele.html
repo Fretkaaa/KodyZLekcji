@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <title>Tabelka</title>
+</head>
+<body>
+    <div id="wynik">
+        <button onclick="WyswietlTabele()">Wyświetl Tabele</button>
+    </div>
+</body>
+<script>
+    function WyswietlTabele() {
+        let html = "<table><tr><th>1k</th><th>2k</th><th>3k</th><th>4k</th></tr><tr><td>Wiersz 1</td><td></td><td></td><td></td></tr><tr><td>Wiersz 2</td><td></td><td></td><td></td></tr><tr><td>Wiersz 3</td><td></td><td></td><td></td></tr></table>"
+        document.getElementById("wynik").innerHTML = html;
+    }
+</script>
+<style>
+    table
+    table tr th, td{
+        width: 100px;
+        height: 30px;
+        text-align: center;
+    }
+    table, tr, th, td{
+        border: 1px solid;
+        border-collapse: collapse;
+    }
+</style>
+</html>
